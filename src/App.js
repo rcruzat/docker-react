@@ -8,8 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Bye there 2!
+          <h1 className="App-header"> Welcome to React </h1>
+          </header>
+          <p className="App-Intro">
+            I was changed on the Feature branch
           </p>
           <a
             className="App-link"
@@ -19,7 +21,7 @@ class App extends Component {
           >
             Learn React
           </a>
-        </header>
+        
       </div>
     );
   }
